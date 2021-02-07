@@ -1,0 +1,99 @@
+body {
+    background: url('https://addons.cdn.mozilla.net/user-media/previews/full/215/215878.png?modified=1551714865');
+    background-color:#4c1864;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    /* max-height: 100%;
+    max-width: 100%; */
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 100%;
+    background-color:#161c33;
+}
+
+h1 {
+    color: #ec94e5;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    font-style: italic;
+}
+
+.gifsTopo {
+    height: 80px;
+    width: 80px;
+}
+
+main {
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.container {
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 100px 25% 20px 25%;
+}
+
+.containerMensagem {
+    display: flex;
+    align-items: center;
+    height: 180px;
+    width: 450px;
+    padding: 25px;
+    border: dotted blue 5px;
+    background-color: rgb(126, 214, 248);
+}
+
+p {
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+
+.botoes {
+    display:flex;
+    justify-content: space-around;
+    padding: 20px;
+    /* width: 350px; */
+    width: auto;
+    margin: 0 auto 0 auto; /*TRBL*/
+    place-items: center;
+}
+
+.botao1, .botao2 {
+    border: dotted blue 5px;
+    padding: 10px;
+    margin:auto 7px auto;
+    width: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+}
+
+.botao1:hover, .botao2:hover {
+    background-color:#144e85;
+    border-color: rgb(126, 214, 248);
+    color: #EFEFEF;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    height: 40px;
+    width: 100%;
+    color: #FFFFFF;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
